@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-sanbox",
+  "version": "1.0.0",
+  "description": "reference: https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisalYun/nodejs-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisalYun/nodejs-sandbox/issues"
+  },
+  "homepage": "https://github.com/VisalYun/nodejs-sandbox#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

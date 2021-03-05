@@ -67,3 +67,16 @@ fs.readFile(path, (err, data)=>{
     }
 })
 ```
+### Adding Express app
+**Installation**: npm install express
+```
+const express = require('express');
+
+const app = express();
+
+app.listen(3000);
+
+app.get('/', (req, res) => {
+    res.send('<p>Hello World!</p>');
+});
+```
